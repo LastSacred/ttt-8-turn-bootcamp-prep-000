@@ -10,6 +10,7 @@ def turn(board)
     puts "Invalid Move"
     turn(board)
   end
+  
 end
 
 def display_board(board)
