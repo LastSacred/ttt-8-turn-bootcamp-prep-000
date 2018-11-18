@@ -4,7 +4,7 @@ def turn(board)
   input_to_index(input)
   
   if valid_move?(board, position_taken?(board, index))
-    move(board,index,character)
+    move(board, index, character)
   else
     puts "Invalid Move"
     turn(board)
