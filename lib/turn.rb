@@ -3,7 +3,7 @@ def turn(board)
   input = gets.strip
   input_to_index(input)
   
-  if valid_move? do
+  if valid_move?
     move(board,index,character)
   else
     puts "Invalid Move"
